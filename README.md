@@ -1,6 +1,6 @@
 # homebrew-showme
 
-Homebrew tap and public binary releases for [`showme`](https://github.com/laetho/showme).
+Homebrew tap and public binary releases for `showme`.
 
 ## Install
 
