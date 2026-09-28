@@ -1,25 +1,25 @@
 class Showme < Formula
   desc "Share local web services, files, and directories at a temporary URL"
   homepage "https://github.com/laetho/homebrew-showme"
-  version "0.2.4"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/laetho/homebrew-showme/releases/download/v0.2.4/showme_v0.2.4_darwin_arm64.tar.gz"
-      sha256 "dabe7b7e909125d398e23ada5c4b50943577d2ed99b6cc69ac9f0696b4f9ac1e"
+      url "https://github.com/laetho/homebrew-showme/releases/download/v0.3.0/showme_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "4966aa9e5ee2a18ee46c10a24284dfad33d55a10ea130d2cfd2f7669f3d32adc"
     else
-      url "https://github.com/laetho/homebrew-showme/releases/download/v0.2.4/showme_v0.2.4_darwin_amd64.tar.gz"
-      sha256 "13e9e4ec8c3df806e0a4741ef926e1f6f06d29cdcc18ca92dc46a5a27746e7d3"
+      url "https://github.com/laetho/homebrew-showme/releases/download/v0.3.0/showme_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "587c866cc8c34ffc483a10d71d5be0e3779025fe7d2ef4efeb50fc32f631f3af"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/laetho/homebrew-showme/releases/download/v0.2.4/showme_v0.2.4_linux_arm64.tar.gz"
-      sha256 "2eca3016c9f97b1c0d9ea214f20dd4ad5b52f84c6090d72a55e4985f869db880"
+      url "https://github.com/laetho/homebrew-showme/releases/download/v0.3.0/showme_v0.3.0_linux_arm64.tar.gz"
+      sha256 "426250c3ec6aa3a3b95f7f685ade70d286744d32081de1cceeabbec6604efe96"
     elsif Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/laetho/homebrew-showme/releases/download/v0.2.4/showme_v0.2.4_linux_amd64.tar.gz"
-      sha256 "bbcc461fd71d8b2f5842e92594acb150d861219c427f08dd73ca3df76db96558"
+      url "https://github.com/laetho/homebrew-showme/releases/download/v0.3.0/showme_v0.3.0_linux_amd64.tar.gz"
+      sha256 "a018ebea37c556b19c4c1a994d5698ed53d07a342cca04b1e50f488b32eadd2e"
     end
   end
 

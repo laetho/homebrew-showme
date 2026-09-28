@@ -1,7 +1,7 @@
 # Maintainer: laetho
 
 pkgname=showme-bin
-pkgver=0.2.4
+pkgver=0.3.0
 pkgrel=1
 pkgdesc="Share local web services, files, and directories at a temporary URL"
 arch=('x86_64' 'aarch64')
@@ -15,8 +15,8 @@ source=('LICENSE')
 source+=("showme-${pkgver}-amd64.tar.gz::${url}/releases/download/v${pkgver}/showme_v${pkgver}_linux_amd64.tar.gz")
 source+=("showme-${pkgver}-arm64.tar.gz::${url}/releases/download/v${pkgver}/showme_v${pkgver}_linux_arm64.tar.gz")
 sha256sums=('00887e236b75102f3c980a79905f78948f0703260ff2ed36b1533d4b805782fe'
-            'bbcc461fd71d8b2f5842e92594acb150d861219c427f08dd73ca3df76db96558'
-            '2eca3016c9f97b1c0d9ea214f20dd4ad5b52f84c6090d72a55e4985f869db880')
+            'a018ebea37c556b19c4c1a994d5698ed53d07a342cca04b1e50f488b32eadd2e'
+            '426250c3ec6aa3a3b95f7f685ade70d286744d32081de1cceeabbec6604efe96')
 
 package() {
   if [[ $CARCH == aarch64 ]]; then
