@@ -1,6 +1,6 @@
 pkgbase = showme-bin
 	pkgdesc = Share local web services, files, and directories at a temporary URL
-	pkgver = 0.3.0
+	pkgver = 0.4.0
 	pkgrel = 1
 	url = https://github.com/laetho/homebrew-showme
 	arch = x86_64
@@ -11,10 +11,10 @@ pkgbase = showme-bin
 	options = !strip
 	options = !debug
 	source = LICENSE
-	source = showme-0.3.0-amd64.tar.gz::https://github.com/laetho/homebrew-showme/releases/download/v0.3.0/showme_v0.3.0_linux_amd64.tar.gz
-	source = showme-0.3.0-arm64.tar.gz::https://github.com/laetho/homebrew-showme/releases/download/v0.3.0/showme_v0.3.0_linux_arm64.tar.gz
+	source = showme-0.4.0-amd64.tar.gz::https://github.com/laetho/homebrew-showme/releases/download/v0.4.0/showme_v0.4.0_linux_amd64.tar.gz
+	source = showme-0.4.0-arm64.tar.gz::https://github.com/laetho/homebrew-showme/releases/download/v0.4.0/showme_v0.4.0_linux_arm64.tar.gz
 	sha256sums = 00887e236b75102f3c980a79905f78948f0703260ff2ed36b1533d4b805782fe
-	sha256sums = a018ebea37c556b19c4c1a994d5698ed53d07a342cca04b1e50f488b32eadd2e
-	sha256sums = 426250c3ec6aa3a3b95f7f685ade70d286744d32081de1cceeabbec6604efe96
+	sha256sums = c5b6ec087f2a7af1e32df063fc12b303ad88b2e7925252badff33a773ab36131
+	sha256sums = d8281f59274c29283be20b6a30a7930f540fb3363dbd05ecb42826bf0afa4e83
 
 pkgname = showme-bin
